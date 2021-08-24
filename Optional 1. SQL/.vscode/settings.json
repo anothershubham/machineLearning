@@ -1,0 +1,32 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "xprotocol"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "market_star_schema",
+            "username": "root",
+            "password": "alethea123",
+            "database": "market_star_schema",
+            "connectionTimeout": 10
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "xprotocol"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "askForPassword": true,
+            "driver": "MariaDB",
+            "database": "market_star_schema",
+            "name": "db1",
+            "username": "root",
+            "connectionTimeout": 10000000
+        }
+    ]
+}
